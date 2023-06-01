@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+	background: #eee;
+	background-image: url('./assets/background-gradient.svg');
+	background-size: cover;
+	background-position-y: 25%;
+	background-repeat: no-repeat;
+}
