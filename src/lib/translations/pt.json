@@ -1,0 +1,13 @@
+{
+	"page_title": "Victor Velozo - Web Developer",
+	"nav_projects": "Projetos",
+	"nav_about": "Sobre Mim",
+	"nav_home": "Início",
+	"$about_me": "20 anos, desenvolvedor fullstack, amante de jogos indie e músico! Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse commodi sint eaque maiores, reiciendis quidem nobis odio fuga recusandae odit rem minus. At doloribus corporis voluptate modi. Vitae, officia at!",
+
+	"projects_title": "Projetos",
+	"projects_repo_link": "Repositório",
+	"projects_live_link": "Demonstração ao Vivo",
+	"skills_title": "Habilidades",
+	"tools_title": "Ferramentas & Techs"
+}
