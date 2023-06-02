@@ -4,8 +4,8 @@
 
 body {
 	background: #eee;
-	background-image: url('./assets/background-gradient.svg');
-	background-size: cover;
-	background-position-y: 25%;
+	background-image: url('$lib/assets/background-gradient.svg');
 	background-repeat: no-repeat;
+	background-position: top;
+	background-position-y: -200px;
 }
