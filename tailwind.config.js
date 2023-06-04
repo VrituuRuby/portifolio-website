@@ -7,7 +7,16 @@ export default {
 				red: '#D13E55',
 				salmon: '#E25555',
 				'black-900': '#111',
-				white: '#fff'
+				white: '#fff',
+				'gray-100': '#F5F5F5',
+				'gray-200': '#EEEEEE',
+				'gray-300': '#E0E0E0',
+				'gray-400': '#BDBDBD',
+				'gray-500': '#9E9E9E',
+				'gray-600': '#757575',
+				'gray-700': '#616161',
+				'gray-800': '#424242',
+				'gray-900': '#212121'
 			},
 			fontFamily: {
 				rubik: ['Rubik', 'sans-serif'],

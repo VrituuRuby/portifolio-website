@@ -1,13 +1,16 @@
 {
 	"page_title": "Victor Velozo - Web Developer",
-	"nav_projects": "Projetos",
-	"nav_about": "Sobre Mim",
-	"nav_home": "Início",
-	"$about_me": "20 anos, desenvolvedor fullstack, amante de jogos indie e músico! Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse commodi sint eaque maiores, reiciendis quidem nobis odio fuga recusandae odit rem minus. At doloribus corporis voluptate modi. Vitae, officia at!",
+	"nav_projects": "PROJETOS",
+	"nav_about": "SOBRE MIM",
+	"nav_home": "INÍCIO",
 
 	"projects_title": "Projetos",
 	"projects_repo_link": "Repositório",
 	"projects_live_link": "Demonstração ao Vivo",
+
+	"about_me_title": "Sobre Mim",
+	"about_me_text": "Olá! Meu nome é Victor Velozo e sou um desenvolvedor fullstack autodidata do Brasil. Tenho uma paixão por criar interfaces encantadoras e funcionais para aplicações, utilizando as melhores tecnologias de desenvolvimento. Sou um entusiasta em aprender novas habilidades e tecnologias, sempre em busca de aprimoramento constante!",
+
 	"skills_title": "Habilidades",
 	"tools_title": "Ferramentas & Techs"
 }

@@ -1,20 +1,15 @@
 <script lang="ts">
 	import { _, locale, locales } from 'svelte-i18n';
+	import DropdownSelect from './DropdownSelect.svelte';
 </script>
 
-<header class="bg-black-900 shadow-default">
+<header class="bg-black-900 shadow-default fixed w-full z-10">
 	<div class="flex justify-between items-center mx-auto max-w-[1200px] px-4">
-		<nav class="font-roboto text-white flex justify-center items-center gap-1">
-			<a class="px-2 py-3 hover:bg-[#222]" href="#about">{$_('nav_about')}</a>
-			<a class="px-2 py-3 hover:bg-[#222]" href="#projects">{$_('nav_projects')}</a>
-			<a class="px-2 py-3 hover:bg-[#222]" href="#about">{$_('nav_home')}</a>
+		<nav class="font-rubik text-base text-white flex justify-center items-center gap-1">
+			<a class="px-2 py-3 hover:bg-[#222] transition" href="#home">{$_('nav_home')}</a>
+			<a class="px-2 py-3 hover:bg-[#222] trsnsition" href="#about">{$_('nav_about')}</a>
+			<a class="px-2 py-3 hover:bg-[#222] transition" href="#projects">{$_('nav_projects')}</a>
 		</nav>
-		<div>
-			<select bind:value={$locale}>
-				{#each $locales as locale}
-					<option value={locale}>{locale}</option>
-				{/each}
-			</select>
-		</div>
+		<DropdownSelect />
 	</div>
 </header>

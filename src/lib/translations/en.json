@@ -1,13 +1,15 @@
 {
 	"page_title": "Victor Velozo - Web Developer",
-	"nav_projects": "My Work",
-	"nav_about": "About",
-	"nav_home": "Home",
-	"$about_me": "20 yo, fullstack developer, indie games lover and musician! Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse commodi sint eaque maiores, reiciendis quidem nobis odio fuga recusandae odit rem minus. At doloribus corporis voluptate modi. Vitae, officia at!",
+	"nav_projects": "MY WORK",
+	"nav_about": "ABOUT",
+	"nav_home": "HOME",
 
 	"projects_title": "My Work",
 	"projects_repo_link": "Code Repository",
 	"projects_live_link": "Live Demo",
+	"about_me_title": "About Me",
+	"about_me_text": "Hello! My name is Victor Velozo and I'm a self-taught fullstack developer from Brazil. I have a passion for creating beautiful and functional interfaces for applications using the best development technologies. I am enthusiastic about learning new skills and technologies, always looking for constant improvement!",
+
 	"skills_title": "Skills",
 	"tools_title": "Tools & Techs"
 }

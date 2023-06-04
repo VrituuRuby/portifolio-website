@@ -1,9 +1,7 @@
-import { addMessages, getLocaleFromNavigator, init } from 'svelte-i18n';
+import { browser } from '$app/environment';
+import { init, register } from 'svelte-i18n';
 
-import en from './lib/translations/en.json';
-import pt from './lib/translations/pt.json';
+register('en-US', () => import('./lib/translations/en.json'));
+register('pt-BR', () => import('./lib/translations/pt.json'));
 
-addMessages('en-US', en);
-addMessages('pt-BR', pt);
-
-init({ fallbackLocale: 'en', initialLocale: getLocaleFromNavigator() });
+init({ fallbackLocale: 'pt-BR', initialLocale: browser ? window.navigator.language : 'pt-BR' });

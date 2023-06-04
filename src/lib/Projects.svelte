@@ -4,21 +4,18 @@
 	import FaGithubSquare from 'svelte-icons/fa/FaGithubSquare.svelte';
 	import FaPlay from 'svelte-icons/fa/FaPlay.svelte';
 
-	import { locale, isLoading } from 'svelte-i18n';
+	import { locale, isLoading, locales } from 'svelte-i18n';
+	console.log($locale);
 </script>
 
-<section class="max-w-[1200px] mx-auto my-4 flex-col" id="projects">
-	<h3 class="font-poppins text-3xl font-bold text-center">{$_('projects_title')}</h3>
+<section class="max-w-[1200px] mx-auto my-4 flex flex-col gap-4 scroll-mt-12" id="projects">
+	<h3 class="font-poppins text-3xl text-center">{$_('projects_title')}</h3>
 
 	<div class="flex justify-between gap-2">
 		{#each projects as project}
 			<article class="flex-1 flex flex-col p-4">
 				<h3 class="font-rubik font-bold text-center text-2xl">{project.name}</h3>
-				<img
-					src={project.image}
-					alt={project.name}
-					class="p-4 drop-shadow-default rounded-md bg-gray-500"
-				/>
+				<img src={project.image} alt={project.name} class="p-4 drop-shadow-default rounded-md" />
 				{#if !$isLoading}
 					<p class="font-roboto text-base text-center text-black-900">
 						{project.title[$locale]}
