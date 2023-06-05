@@ -21,7 +21,7 @@
 </svelte:head>
 
 <Header />
-<main class="px-4 flex flex-col gap-4 max-w-[1200px] mx-auto">
+<main class="px-8 flex flex-col gap-4 max-w-[1200px] mx-auto">
 	<slot />
 </main>
 <Footer />

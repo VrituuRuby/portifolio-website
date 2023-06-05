@@ -3,6 +3,9 @@ export default {
 	content: ['./src/**/*.{html,js,svelte,ts}'],
 	theme: {
 		extend: {
+			screens: {
+				md: '840px'
+			},
 			colors: {
 				red: '#D13E55',
 				salmon: '#E25555',

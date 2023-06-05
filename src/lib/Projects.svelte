@@ -5,20 +5,20 @@
 	console.log($locale);
 </script>
 
-<section class="my-4 flex flex-col gap-1 scroll-mt-12" id="projects">
+<section class="my-4 flex flex-col gap-4 scroll-mt-12" id="projects">
 	<h3 class="font-poppins text-3xl text-center">{$_('projects_title')}</h3>
 
-	<div class="flex justify-between gap-2">
+	<div class="flex flex-col md:flex-row justify-between gap-4">
 		{#each projects as project}
 			<article class="flex-1 flex flex-col">
 				<h3 class="font-rubik font-bold text-center text-2xl">{project.name}</h3>
-				<img src={project.image} alt={project.name} class="p-4 drop-shadow-default rounded-md" />
+				<img src={project.image} alt={project.name} class="drop-shadow-default rounded-md" />
 				{#if !$isLoading}
 					<p class="font-roboto text-base text-center text-black-900">
 						{project.title[$locale]}
 					</p>
 				{/if}
-				<div class="flex justify-between gap-2">
+				<div class="flex flex-col md:flex-row justify-between gap-2">
 					<a
 						class="link flex gap-4 rounded-md font-poppins text-white font-bold text-base flex-1 p-2 justify-center items-center transition hover:brightness-110"
 						href={project.repo}

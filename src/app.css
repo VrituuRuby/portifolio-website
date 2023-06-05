@@ -9,4 +9,5 @@ html {
 body {
 	background: #eee;
 	background-image: url('$lib/assets/background-gradient.svg');
+	background-position: center;
 }

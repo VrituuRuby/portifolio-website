@@ -1,15 +1,9 @@
 <script>
-	const src = 'https://avatars.githubusercontent.com/u/61244052?v=4';
-
-	import FaLinkedin from 'svelte-icons/fa/FaLinkedin.svelte';
-	import FaGithubSquare from 'svelte-icons/fa/FaGithubSquare.svelte';
-	import GoFile from 'svelte-icons/go/GoFile.svelte';
-
 	const cvSrc = './Victor-Emanuel-de-Lima-Velozo-Curriculum.pdf';
 </script>
 
 <main id="home" class="flex justify-center items-center gap-16 p-[140px] h-[80vh]">
-	<div class="flex-col text-6xl text-white">
+	<div class="flex-col text-4xl text-white md:text-6xl">
 		<h3 class="font-mono font-bold drop-shadow-default flex gap-2 items-center">
 			Hello World
 			<img
