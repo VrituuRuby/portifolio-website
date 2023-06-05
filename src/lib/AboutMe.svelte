@@ -4,10 +4,7 @@
 	const src = 'https://avatars.githubusercontent.com/u/61244052?v=4';
 </script>
 
-<div
-	id="about"
-	class="max-w-[1200px] mx-auto mb-20 flex gap-10 px-[100px] items-center justify-center scroll-mt-12"
->
+<div id="about" class="mb-20 flex gap-10 px-[100px] items-center justify-center scroll-mt-12">
 	<img {src} class="max-w-[300px] rounded-full border-white border-[7px]" alt="profile pic" />
 	<div class="flex flex-col gap-2">
 		<h3 class="font-poppins text-3xl">

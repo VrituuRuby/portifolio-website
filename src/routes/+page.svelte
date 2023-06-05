@@ -1,5 +1,6 @@
 <script>
 	import AboutMe from '$lib/AboutMe.svelte';
+	import ContactForm from '$lib/ContactForm.svelte';
 	import Footer from '$lib/Footer.svelte';
 	import Skills from '$lib/Skills.svelte';
 	import Header from '../lib/Header.svelte';
@@ -11,3 +12,4 @@
 <AboutMe />
 <Projects />
 <Skills />
+<ContactForm />

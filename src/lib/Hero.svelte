@@ -8,7 +8,7 @@
 	const cvSrc = './Victor-Emanuel-de-Lima-Velozo-Curriculum.pdf';
 </script>
 
-<main id="home" class="flex justify-center items-center gap-16 p-[140px] h-[100vh]">
+<main id="home" class="flex justify-center items-center gap-16 p-[140px] h-[80vh]">
 	<div class="flex-col text-6xl text-white">
 		<h3 class="font-mono font-bold drop-shadow-default flex gap-2 items-center">
 			Hello World
@@ -20,7 +20,7 @@
 		</h3>
 		<h1 class="font-poppins font-black drop-shadow-default">Victor Velozo</h1>
 		<h2 class="font-poppins font-black drop-shadow-default">Web Developer</h2>
-		<div class="flex justify-start gap-4 mt-2 text-[#353546]">
+		<!-- <div class="flex justify-start gap-4 mt-2 text-[#353546]">
 			<a
 				href="https://www.linkedin.com/in/victorlv/"
 				target="_blank"
@@ -42,6 +42,6 @@
 			>
 				<GoFile class="drop-shadow-default" />
 			</a>
-		</div>
+		</div> -->
 	</div>
 </main>

@@ -1,5 +1,6 @@
 <script lang="ts">
 	import { locale } from 'svelte-i18n';
+	import { fly } from 'svelte/transition';
 	let showOptions = false;
 </script>
 
@@ -14,10 +15,15 @@
 		{:else if $locale === 'pt-BR'}
 			<img src="https://hatscripts.github.io/circle-flags/flags/br.svg" class="w-5" alt="" />
 			BR
+		{:else}
+			LANG
 		{/if}
 	</button>
 	{#if showOptions}
-		<ul class="absolute top-full rounded-lg mt-1 bg-gray-800 w-full p-0.5">
+		<ul
+			class="absolute top-full rounded-lg mt-1 bg-gray-800 w-full p-0.5"
+			transition:fly={{ y: -10, duration: 200 }}
+		>
 			<li>
 				<button
 					class="flex gap-1 justify-center items-center hover:bg-gray-700 w-full p-0.5 rounded-lg"

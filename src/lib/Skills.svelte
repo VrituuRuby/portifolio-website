@@ -3,9 +3,9 @@
 	import { backend, frontend } from './skills';
 </script>
 
-<div class="flex flex-col gap-4 max-w-[1200px] mx-auto py-4">
+<div class="flex flex-col gap-1 py-4">
 	<h3 class="font-poppins text-center text-3xl">{$_('skills_title')}</h3>
-	<div class="flex gap-4 p-2">
+	<div class="flex gap-4">
 		<div class="flex flex-col flex-1 p-2 rounded-lg bg-gray-100 shadow-lg gap-2">
 			<h4 class="font-poppins font-bold text-center text-xl rounded-full w-full text-gray-800">
 				Frontend

@@ -1696,11 +1696,6 @@
     "sade" "^1.8.1"
     "tiny-glob" "^0.2.9"
 
-"svelte-icons@^2.1.0":
-  "integrity" "sha512-rHPQjweEc9fGSnvM0/4gA3pDHwyZyYsC5KhttCZRhSMJfLttJST5Uq0B16Czhw+HQ+HbSOk8kLigMlPs7gZtfg=="
-  "resolved" "https://registry.npmjs.org/svelte-icons/-/svelte-icons-2.1.0.tgz"
-  "version" "2.1.0"
-
 "svelte-inline-svg@^1.2.0":
   "integrity" "sha512-mYyvz7uddfaj/yXB5zyAyYSPUyE7vdK8En7dGJjZf3XImdAfOuDxhNn5OFF84BQeJFVZ7T8/rJU33emiHKdLhQ=="
   "resolved" "https://registry.npmjs.org/svelte-inline-svg/-/svelte-inline-svg-1.2.0.tgz"

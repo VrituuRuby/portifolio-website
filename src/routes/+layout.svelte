@@ -4,6 +4,16 @@
 	import Footer from '$lib/Footer.svelte';
 	import Header from '$lib/Header.svelte';
 	import '../app.css';
+
+	import { locale, waitLocale } from 'svelte-i18n';
+	import { browser } from '$app/environment';
+
+	export const load = async () => {
+		if (browser) {
+			locale.set(window.navigator.language);
+		}
+		await waitLocale();
+	};
 </script>
 
 <svelte:head>
@@ -11,7 +21,7 @@
 </svelte:head>
 
 <Header />
-<main class="px-4">
+<main class="px-4 flex flex-col gap-4 max-w-[1200px] mx-auto">
 	<slot />
 </main>
 <Footer />

@@ -3,6 +3,7 @@
 	"nav_projects": "PROJETOS",
 	"nav_about": "SOBRE MIM",
 	"nav_home": "INÍCIO",
+	"nav_contact": "CONTATO",
 
 	"projects_title": "Projetos",
 	"projects_repo_link": "Repositório",
@@ -12,5 +13,14 @@
 	"about_me_text": "Olá! Meu nome é Victor Velozo e sou um desenvolvedor fullstack autodidata do Brasil. Tenho uma paixão por criar interfaces encantadoras e funcionais para aplicações, utilizando as melhores tecnologias de desenvolvimento. Sou um entusiasta em aprender novas habilidades e tecnologias, sempre em busca de aprimoramento constante!",
 
 	"skills_title": "Habilidades",
-	"tools_title": "Ferramentas & Techs"
+	"tools_title": "Ferramentas & Techs",
+
+	"contact_title": "Entre em contato!",
+	"contact_name_label": "Nome",
+	"contact_name_placeholder": "Seu nome completo!",
+	"contact_email_placeholder": "seu@email.com",
+	"contact_message_label": "Mensagem",
+	"contact_message_placeholder": "Escreva-me sua mensagem e eu responderei o mais breve possível!",
+
+	"button_submit": "Enviar"
 }

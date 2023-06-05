@@ -1,19 +1,16 @@
 <script>
 	import { _ } from 'svelte-i18n';
 	import { projects } from './projects';
-	import FaGithubSquare from 'svelte-icons/fa/FaGithubSquare.svelte';
-	import FaPlay from 'svelte-icons/fa/FaPlay.svelte';
-
 	import { locale, isLoading, locales } from 'svelte-i18n';
 	console.log($locale);
 </script>
 
-<section class="max-w-[1200px] mx-auto my-4 flex flex-col gap-4 scroll-mt-12" id="projects">
+<section class="my-4 flex flex-col gap-1 scroll-mt-12" id="projects">
 	<h3 class="font-poppins text-3xl text-center">{$_('projects_title')}</h3>
 
 	<div class="flex justify-between gap-2">
 		{#each projects as project}
-			<article class="flex-1 flex flex-col p-4">
+			<article class="flex-1 flex flex-col">
 				<h3 class="font-rubik font-bold text-center text-2xl">{project.name}</h3>
 				<img src={project.image} alt={project.name} class="p-4 drop-shadow-default rounded-md" />
 				{#if !$isLoading}
@@ -27,9 +24,6 @@
 						href={project.repo}
 						target="_blank"
 					>
-						<i class="w-6">
-							<FaGithubSquare />
-						</i>
 						{$_('projects_repo_link')}
 					</a>
 					{#if project.liveDemo}
@@ -38,9 +32,6 @@
 							target="_blank"
 							href={project.liveDemo}
 						>
-							<i class="w-4">
-								<FaPlay />
-							</i>
 							{$_('projects_live_link')}
 						</a>
 					{/if}

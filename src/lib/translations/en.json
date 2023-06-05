@@ -3,6 +3,7 @@
 	"nav_projects": "MY WORK",
 	"nav_about": "ABOUT",
 	"nav_home": "HOME",
+	"nav_contact": "CONTACT-ME",
 
 	"projects_title": "My Work",
 	"projects_repo_link": "Code Repository",
@@ -11,5 +12,14 @@
 	"about_me_text": "Hello! My name is Victor Velozo and I'm a self-taught fullstack developer from Brazil. I have a passion for creating beautiful and functional interfaces for applications using the best development technologies. I am enthusiastic about learning new skills and technologies, always looking for constant improvement!",
 
 	"skills_title": "Skills",
-	"tools_title": "Tools & Techs"
+	"tools_title": "Tools & Techs",
+
+	"contact_title": "Contact me!",
+	"contact_name_label": "Name",
+	"contact_name_placeholder": "Your full name",
+	"contact_email_placeholder": "your@email.com",
+	"contact_message_label": "Message",
+	"contact_message_placeholder": "Write me your message and I will answer you as soon as possible!",
+
+	"button_submit": "Submit"
 }
