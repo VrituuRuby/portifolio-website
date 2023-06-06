@@ -2,7 +2,12 @@
 	import { _ } from 'svelte-i18n';
 </script>
 
-<form id="contact" action="" class="flex flex-col items-center gap-2 pb-4">
+<form
+	id="contact"
+	action="https://formsubmit.co/victor.velozo@outlook.com"
+	method="post"
+	class="flex flex-col items-center gap-2 pb-4"
+>
 	<h3 class="font-poppins text-center text-3xl">{$_('contact_title')}</h3>
 	<label for="name" class="font-rubik text-base text-gray-800 flex flex-col w-full"
 		>{$_('contact_name_label')}
@@ -18,7 +23,7 @@
 	<label for="email" class="font-rubik text-base text-gray-800 flex flex-col w-full"
 		>Email
 		<input
-			type="text"
+			type="email"
 			name="email"
 			id=""
 			placeholder={$_('contact_email_placeholder')}
@@ -34,6 +39,7 @@
 		/>
 	</label>
 	<button
+		type="submit"
 		class="rounded-md border-gray-400 border max-w-xs text-center text-white font-poppins px-4 py-1 hover:brightness-110 shadow-md"
 		>{$_('button_submit')}</button
 	>

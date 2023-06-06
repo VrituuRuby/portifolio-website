@@ -8,6 +8,6 @@ html {
 
 body {
 	background: #eee;
-	background-image: url('$lib/assets/background-gradient.svg');
-	background-position: center;
+	background-image: url('/images/background-gradient.svg');
+	background-position: top;
 }

@@ -7,6 +7,8 @@ export default {
 				md: '840px'
 			},
 			colors: {
+				'light-blue': '#6085BF',
+				'dark-blue': '#4B5F9F',
 				red: '#D13E55',
 				salmon: '#E25555',
 				'black-900': '#111',

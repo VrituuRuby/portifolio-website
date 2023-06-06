@@ -1,8 +1,4 @@
-<script>
-	const cvSrc = './Victor-Emanuel-de-Lima-Velozo-Curriculum.pdf';
-</script>
-
-<main id="home" class="flex justify-center items-center gap-16 p-[140px] h-[80vh]">
+<main id="home" class="flex justify-center items-center gap-16 h-[80vh]">
 	<div class="flex-col text-4xl text-white md:text-6xl">
 		<h3 class="font-mono font-bold drop-shadow-default flex gap-2 items-center">
 			Hello World
@@ -14,28 +10,28 @@
 		</h3>
 		<h1 class="font-poppins font-black drop-shadow-default">Victor Velozo</h1>
 		<h2 class="font-poppins font-black drop-shadow-default">Web Developer</h2>
-		<!-- <div class="flex justify-start gap-4 mt-2 text-[#353546]">
+		<div class="flex justify-start gap-4 mt-2 text-[#353546]">
 			<a
 				href="https://www.linkedin.com/in/victorlv/"
 				target="_blank"
-				class="rounded-md hover:bg-white transition-all w-14 h-14 p-1"
+				class="p-1 bg-white rounded-md drop-shadow-default hover:scale-105 transition"
 			>
-				<FaLinkedin />
+				<img src="./icons/linkedin.svg" alt="linkedin" class="w-12 drop-shadow-default" />
 			</a>
 			<a
 				href="https://github.com/VrituuRuby"
 				target="_blank"
-				class="rounded-md hover:bg-white transition-all w-14 h-14 p-1"
+				class="p-1 bg-white rounded-md drop-shadow-default hover:scale-105 transition"
 			>
-				<FaGithubSquare />
+				<img src="./icons/github.svg" alt="linkedin" class="w-12 drop-shadow-default" />
 			</a>
 			<a
-				href={cvSrc}
+				href="./Victor-Emanuel-de-Lima-Velozo-Curriculum.pdf"
 				target="_blank"
-				class="rounded-md hover:bg-white transition-all w-14 h-14 p-1"
+				class="p-1 bg-white rounded-md drop-shadow-default hover:scale-105 transition"
 			>
-				<GoFile class="drop-shadow-default" />
+				<img src="./icons/cv.svg" alt="linkedin" class="w-12 drop-shadow-default" />
 			</a>
-		</div> -->
+		</div>
 	</div>
 </main>

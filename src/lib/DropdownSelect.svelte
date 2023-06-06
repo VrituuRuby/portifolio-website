@@ -4,7 +4,7 @@
 	let showOptions = false;
 </script>
 
-<div class="relative text-white">
+<div class="relative text-white py-3">
 	<button
 		class="flex gap-1 items-center font-rubik text-white rounded-full py-1 px-2 bg-gray-900"
 		on:click={() => (showOptions = !showOptions)}
