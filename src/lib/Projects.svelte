@@ -1,8 +1,7 @@
 <script>
 	import { _ } from 'svelte-i18n';
 	import { projects } from './projects';
-	import { locale, isLoading, locales } from 'svelte-i18n';
-	console.log($locale);
+	import { locale } from 'svelte-i18n';
 </script>
 
 <section class="my-4 flex flex-col gap-4 scroll-mt-12" id="projects">
@@ -13,11 +12,9 @@
 			<article class="flex-1 flex flex-col">
 				<h3 class="font-rubik font-bold text-center text-2xl">{project.name}</h3>
 				<img src={project.image} alt={project.name} class="drop-shadow-default rounded-md" />
-				{#if !$isLoading}
-					<p class="font-roboto text-base text-center text-black-900">
-						{project.title[$locale]}
-					</p>
-				{/if}
+				<p class="font-roboto text-base text-center text-black-900">
+					{project.title[$locale]}
+				</p>
 				<div class="flex flex-col md:flex-row justify-between gap-2">
 					<a
 						class="link flex gap-4 rounded-md font-poppins text-white font-bold text-base flex-1 p-2 justify-center items-center transition hover:brightness-110"
