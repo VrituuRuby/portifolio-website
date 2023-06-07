@@ -32,7 +32,7 @@
 		<h3 class="font-poppins text-3xl">
 			{$_('about_me_title')}
 		</h3>
-		<p class="font-roboto text-justify text-base sm:text-left text-black-900">
+		<p class="font-roboto text-justify text-base sm:text-left text-black-900 dark:text-gray-200">
 			{$_('about_me_text')}
 		</p>
 	</div>

@@ -1,5 +1,5 @@
 <main id="home" class="flex justify-center items-center gap-16 h-[80vh]">
-	<div class="flex-col text-4xl text-white md:text-6xl">
+	<div class="flex-col text-4xl text-white md:text-6xl dark:text-gray-200">
 		<h3 class="font-mono font-bold drop-shadow-default flex gap-2 items-center">
 			Hello World
 			<img

@@ -5,9 +5,3 @@
 html {
 	scroll-behavior: smooth;
 }
-
-body {
-	background: #eee;
-	background-image: url('/images/background-gradient.svg');
-	background-position: top;
-}

@@ -9,7 +9,9 @@
 	class="flex flex-col items-center gap-2 pb-4"
 >
 	<h3 class="font-poppins text-center text-3xl">{$_('contact_title')}</h3>
-	<label for="name" class="font-rubik text-base text-gray-800 flex flex-col w-full"
+	<label
+		for="name"
+		class="font-rubik text-base text-gray-800 dark:text-gray-300 flex flex-col w-full"
 		>{$_('contact_name_label')}
 
 		<input
@@ -17,25 +19,29 @@
 			name="name"
 			id=""
 			placeholder={$_('contact_name_placeholder')}
-			class="px-2 py-1 rounded-md border-gray-400 border focus:outline-salmon shadow-md"
+			class="px-2 py-1 rounded-md border-gray-400 placeholder:text-gray-500 dark:bg-gray-800 dark:border-gray-700 dark:text-white border focus:outline-none focus:outline-salmon shadow-md"
 		/>
 	</label>
-	<label for="email" class="font-rubik text-base text-gray-800 flex flex-col w-full"
+	<label
+		for="email"
+		class="font-rubik text-base text-gray-800 dark:text-gray-300 flex flex-col w-full"
 		>Email
 		<input
 			type="email"
 			name="email"
 			id=""
 			placeholder={$_('contact_email_placeholder')}
-			class="px-2 py-1 rounded-md border-gray-400 border focus:outline-salmon shadow-md"
+			class="px-2 dark:bg-gray-800 dark:border-gray-700 dark:text-white py-1 placeholder:text-gray-500 rounded-md border-gray-400 border focus:outline-none focus:outline-salmon shadow-md"
 		/>
 	</label>
-	<label for="message" class="font-rubik text-base text-gray-800 flex flex-col w-full"
+	<label
+		for="message"
+		class="font-rubik text-base text-gray-800 dark:text-gray-300 flex flex-col w-full"
 		>{$_('contact_message_label')}
 		<textarea
 			name="message"
 			placeholder={$_('contact_message_placeholder')}
-			class="px-2 py-1 rounded-md border-gray-400 border min-h-[120px] focus:outline-salmon shadow-md"
+			class=" dark:bg-gray-800 dark:border-gray-700 placeholder:text-gray-500 dark:text-white px-2 py-1 rounded-md border-gray-400 border min-h-[120px] focus:outline-none focus:outline-salmon shadow-md"
 		/>
 	</label>
 	<button

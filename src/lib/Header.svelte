@@ -4,19 +4,22 @@
 	import DropdownSelect from './DropdownSelect.svelte';
 
 	let showNav = false;
+
+	export let dark = false;
 </script>
 
-<header class="bg-black-900 shadow-default fixed w-full z-10">
+<header class="bg-[rgba(0,0,0,0.7)] backdrop-blur-sm shadow-default fixed w-full z-10">
 	<div class="flex w-full justify-between items-center relative px-4 max-w-[1200px] mx-auto">
 		<button
-			class="p-3 hover:bg-[#222] transitino text-center text-white font-rubik sm:hidden"
+			class="p-3 hover:bg-[#222] transition text-center text-white font-rubik sm:hidden"
 			on:click={() => (showNav = !showNav)}
 		>
 			<img src="./icons/menu.svg" alt="menu" />
 		</button>
 		{#if showNav}
 			<nav
-				class="absolute sm:hidden top-[100%] left-0 font-rubik text-base text-white flex flex-col items-center gap-1 bg-black-900 p-1 w-full"
+				class="absolute shadow-default sm:hidden top-[100%] left-0 font-rubik text-base text-white flex flex-col items-center gap-1
+				bg-[rgba(0,0,0,0.5)] p-1 w-full"
 				transition:fly={{ duration: 200, y: -20 }}
 			>
 				<a
@@ -42,7 +45,7 @@
 			</nav>
 		{/if}
 		<nav
-			class="hidden sm:flex font-rubik text-base text-white flex justify-center items-center gap-1"
+			class="hidden sm:flex font-rubik text-base text-white justify-center items-center gap-1"
 			transition:fly
 		>
 			<a class="px-2 py-3 hover:bg-[#222] transition text-center" href="#home">{$_('nav_home')}</a>
@@ -55,6 +58,18 @@
 				>{$_('nav_contact')}</a
 			>
 		</nav>
-		<DropdownSelect />
+		<div class="flex items-center gap-2">
+			<button
+				class="p-1 hover:bg-[#222] transition text-center text-white font-rubik rounded-full"
+				on:click|preventDefault={() => (dark = !dark)}
+			>
+				<img
+					src={dark ? './icons/sun.svg' : './icons/moon.svg'}
+					alt="Toggle dark mode"
+					class="w-6"
+				/>
+			</button>
+			<DropdownSelect />
+		</div>
 	</div>
 </header>

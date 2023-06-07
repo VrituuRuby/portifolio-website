@@ -12,7 +12,7 @@
 			<article class="flex-1 flex flex-col">
 				<h3 class="font-rubik font-bold text-center text-2xl">{project.name}</h3>
 				<img src={project.image} alt={project.name} class="drop-shadow-default rounded-md" />
-				<p class="font-roboto text-base text-center text-black-900">
+				<p class="font-roboto text-base text-center text-black-900 dark:text-gray-200">
 					{project.title[$locale]}
 				</p>
 				<div class="flex flex-col md:flex-row justify-between gap-2">
