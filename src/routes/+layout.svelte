@@ -7,6 +7,7 @@
 
 	import { locale, waitLocale } from 'svelte-i18n';
 	import { browser } from '$app/environment';
+	import { onMount } from 'svelte';
 
 	export const load = async () => {
 		if (browser) {
@@ -15,7 +16,11 @@
 		await waitLocale();
 	};
 
-	let dark = true;
+	let dark = false;
+	onMount(() => {
+		const settedDarkMode = localStorage.getItem('dark-mode');
+		if (settedDarkMode) dark = JSON.parse(settedDarkMode);
+	});
 </script>
 
 <svelte:head>

@@ -61,7 +61,10 @@
 		<div class="flex items-center gap-2">
 			<button
 				class="p-1 hover:bg-[#222] transition text-center text-white font-rubik rounded-full"
-				on:click|preventDefault={() => (dark = !dark)}
+				on:click|preventDefault={() => {
+					dark = !dark;
+					localStorage.setItem('dark-mode', JSON.stringify(dark));
+				}}
 			>
 				<img
 					src={dark ? './icons/sun.svg' : './icons/moon.svg'}
