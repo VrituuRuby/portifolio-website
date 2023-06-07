@@ -4,7 +4,7 @@
 
 <form
 	id="contact"
-	action="https://formsubmit.co/victor.velozo@outlook.com"
+	action="https://formsubmit.co/ed15e3f1e3c06fc3fbe37db328719d08"
 	method="post"
 	class="flex flex-col items-center gap-2 pb-4"
 >
