@@ -4,6 +4,9 @@ export default {
 	darkMode: 'class',
 	theme: {
 		extend: {
+			backgroundImage: {
+				gradient: "url('./images/background.svg')"
+			},
 			screens: {
 				md: '840px'
 			},

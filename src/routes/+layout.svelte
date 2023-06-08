@@ -30,7 +30,7 @@
 </svelte:head>
 
 <div class:dark>
-	<div class="bg-gray-100 dark:bg-gray-950 background transition-[200ms]">
+	<div class="bg-gray-100 dark:bg-gray-950 bg-gradient transition-[200ms]">
 		<Header bind:dark />
 		<main class="px-8 flex flex-col gap-4 max-w-[1200px] mx-auto">
 			<slot />
@@ -38,10 +38,3 @@
 		<Footer />
 	</div>
 </div>
-
-<style>
-	div.background {
-		background-image: url('./images/background.svg');
-		background-position: top;
-	}
-</style>
