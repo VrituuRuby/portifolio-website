@@ -5,6 +5,8 @@
 	import Header from '$lib/Header.svelte';
 	import '../app.css';
 
+	const background = './images/background.svg';
+
 	import { locale, waitLocale } from 'svelte-i18n';
 	import { browser } from '$app/environment';
 	import { onMount } from 'svelte';
@@ -39,7 +41,7 @@
 
 <style>
 	div.background {
-		background-image: url('./images/background-gradient.svg');
+		background-image: url('./images/background.svg');
 		background-position: top;
 	}
 </style>
