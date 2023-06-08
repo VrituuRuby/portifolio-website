@@ -5,7 +5,7 @@ export default {
 	theme: {
 		extend: {
 			backgroundImage: {
-				gradient: "url('./images/background.svg')"
+				gradient: "url('/images/background.svg')"
 			},
 			screens: {
 				md: '840px'
