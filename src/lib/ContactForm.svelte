@@ -15,6 +15,7 @@
 		>{$_('contact_name_label')}
 
 		<input
+			required
 			type="text"
 			name="name"
 			id=""
@@ -27,6 +28,7 @@
 		class="font-rubik text-base text-gray-800 dark:text-gray-300 flex flex-col w-full"
 		>Email
 		<input
+			required
 			type="email"
 			name="email"
 			id=""
@@ -39,6 +41,7 @@
 		class="font-rubik text-base text-gray-800 dark:text-gray-300 flex flex-col w-full"
 		>{$_('contact_message_label')}
 		<textarea
+			required
 			name="message"
 			placeholder={$_('contact_message_placeholder')}
 			class=" dark:bg-gray-800 dark:border-gray-700 placeholder:text-gray-500 dark:text-white px-2 py-1 rounded-md border-gray-400 border min-h-[120px] focus:outline-none focus:outline-salmon shadow-md"

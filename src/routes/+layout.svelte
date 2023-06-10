@@ -5,8 +5,6 @@
 	import Header from '$lib/Header.svelte';
 	import '../app.css';
 
-	const background = './images/background.svg';
-
 	import { locale, waitLocale } from 'svelte-i18n';
 	import { browser } from '$app/environment';
 	import { onMount } from 'svelte';
